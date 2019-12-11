@@ -1,0 +1,10 @@
+mut i = 1
+mut factRes = 1
+> fact
+for i in 1..fact { factRes = factRes * i; }
+< factRes
+mut x = 1
+mut y = 0
+> fib
+for i in 1..fib - 1 { x = x + y; y = x - y; }
+< x
